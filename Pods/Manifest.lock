@@ -1,0 +1,16 @@
+PODS:
+  - KCHttpTask (0.1.0)
+
+DEPENDENCIES:
+  - KCHttpTask (from `trademark/Frameworks/KCHttpTask/`)
+
+EXTERNAL SOURCES:
+  KCHttpTask:
+    :path: trademark/Frameworks/KCHttpTask/
+
+SPEC CHECKSUMS:
+  KCHttpTask: df1a0bcefb5180eced5ecc5b1fa8397ba22ecdd9
+
+PODFILE CHECKSUM: 379fa10e8e40b785f5cc074b900e1d1cb71444de
+
+COCOAPODS: 1.9.1
