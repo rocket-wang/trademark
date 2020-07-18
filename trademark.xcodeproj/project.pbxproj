@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		9BD742E924B9FF06003501B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD742E824B9FF06003501B2 /* main.m */; };
 		9BD742F324B9FF06003501B2 /* trademarkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD742F224B9FF06003501B2 /* trademarkTests.m */; };
 		9BD742FE24B9FF06003501B2 /* trademarkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD742FD24B9FF06003501B2 /* trademarkUITests.m */; };
+		9BD7431224BAC854003501B2 /* KCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD7431124BAC854003501B2 /* KCMainViewController.m */; };
 		BB52CE090C8B0A47657E288C /* Pods_trademarkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB74349B3D693328B04F57 /* Pods_trademarkTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,8 @@
 		9BD742F924B9FF06003501B2 /* trademarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trademarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD742FD24B9FF06003501B2 /* trademarkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = trademarkUITests.m; sourceTree = "<group>"; };
 		9BD742FF24B9FF07003501B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD7431024BAC854003501B2 /* KCMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCMainViewController.h; sourceTree = "<group>"; };
+		9BD7431124BAC854003501B2 /* KCMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCMainViewController.m; sourceTree = "<group>"; };
 		CCD215B495FF67CA780F014A /* Pods-trademark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trademark.release.xcconfig"; path = "Target Support Files/Pods-trademark/Pods-trademark.release.xcconfig"; sourceTree = "<group>"; };
 		E7E28A53247EC13CD9AA1625 /* Pods_trademark_trademarkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_trademark_trademarkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -106,7 +109,6 @@
 				7A36EFB68EE53F1F5C909730 /* Pods-trademarkTests.debug.xcconfig */,
 				03224EC9EB5DDA2DC5CAC826 /* Pods-trademarkTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -151,6 +153,7 @@
 				9BD742DA24B9FF04003501B2 /* SceneDelegate.m */,
 				9BD742DC24B9FF04003501B2 /* ViewController.h */,
 				9BD742DD24B9FF04003501B2 /* ViewController.m */,
+				9BD7430B24BAC817003501B2 /* Domain */,
 				9BD742DF24B9FF04003501B2 /* Main.storyboard */,
 				9BD742E224B9FF06003501B2 /* Assets.xcassets */,
 				9BD742E424B9FF06003501B2 /* LaunchScreen.storyboard */,
@@ -176,6 +179,47 @@
 				9BD742FF24B9FF07003501B2 /* Info.plist */,
 			);
 			path = trademarkUITests;
+			sourceTree = "<group>";
+		};
+		9BD7430B24BAC817003501B2 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				9BD7430C24BAC817003501B2 /* Search */,
+				9BD7430D24BAC817003501B2 /* Mine */,
+				9BD7430E24BAC817003501B2 /* Person Center */,
+				9BD7430F24BAC817003501B2 /* Main */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		9BD7430C24BAC817003501B2 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		9BD7430D24BAC817003501B2 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		9BD7430E24BAC817003501B2 /* Person Center */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Person Center";
+			sourceTree = "<group>";
+		};
+		9BD7430F24BAC817003501B2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9BD7431024BAC854003501B2 /* KCMainViewController.h */,
+				9BD7431124BAC854003501B2 /* KCMainViewController.m */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -418,6 +462,7 @@
 			files = (
 				9BD742DE24B9FF04003501B2 /* ViewController.m in Sources */,
 				9BD742D824B9FF04003501B2 /* AppDelegate.m in Sources */,
+				9BD7431224BAC854003501B2 /* KCMainViewController.m in Sources */,
 				9BD742E924B9FF06003501B2 /* main.m in Sources */,
 				9BD742DB24B9FF04003501B2 /* SceneDelegate.m in Sources */,
 			);

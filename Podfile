@@ -5,9 +5,12 @@ target 'trademark' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   
-  pod 'KCHttpTask', :path => 'Frameworks/KCHttpTask/'
-  pod 'KCRouter', :path => 'Frameworks/KCRouter/'
+  pod 'KCCore', :path => '/Users/wanglei/Desktop/KC/KCCore'
+  pod 'KCUtils', :path => '/Users/wanglei/Desktop/KC/KCUtils'
   
+  pod 'KCRouter', :path => '/Users/wanglei/Desktop/KC/KCRouter'
+  pod 'KCHttpTask', :path => '/Users/wanglei/Desktop/KC/KCHttpTask'
+
 #  pod 'Beehive'
 
   # Pods for trademark
